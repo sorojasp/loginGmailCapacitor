@@ -6,15 +6,17 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
-
+import { GooglePlus } from '@ionic-native/google-plus/ngx';
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule, 
+    
   ],
-  declarations: [Tab1Page]
+  declarations: [Tab1Page],
+  providers:[GooglePlus]
 })
 export class Tab1PageModule {}

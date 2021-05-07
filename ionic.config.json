@@ -1,5 +1,7 @@
 {
   "name": "loginGoogle",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
