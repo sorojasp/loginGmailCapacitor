@@ -17,7 +17,7 @@ export class Tab1Page {
   public googleLogin(){
     
   this.googlePlus.login({
-    'webClientId':'695193721598-0s3m7onsavabs8ulj9rq4mjj962m3osc.apps.googleusercontent.com',
+    'webClientId':'',
     'offline':'true',
     'scopes': 'profile email'
   })
