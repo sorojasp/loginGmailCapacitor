@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">loginGoogle</string>
     <string name="title_activity_main">loginGoogle</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="package_name">com.gmailgoogle.capalogin</string>
+    <string name="custom_url_scheme">com.gmailgoogle.capalogin</string>
+    <string name="server_client_id">411354985049-ebd46ja4ji4djlhnavk7sfsd7f58ktci.apps.googleusercontent.com</string>
 </resources>

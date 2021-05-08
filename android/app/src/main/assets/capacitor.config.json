@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.gmailgoogle.capalogin",
   "appName": "loginGoogle",
   "bundledWebRuntime": false,
   "npmClient": "npm",
@@ -7,6 +7,14 @@
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0
+    },
+    "GoogleAuth": {
+      "scopes": [
+        "profile",
+        "email"
+      ],
+      "serverClientId": "411354985049-ebd46ja4ji4djlhnavk7sfsd7f58ktci.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
     }
   },
   "cordova": {}
